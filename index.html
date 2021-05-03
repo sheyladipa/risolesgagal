@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portofolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="bingkai">
+	<div class="kiri">
+		<div class="foto">
+			<center>
+				<img src="Ella.jfif" class="ella">
+			</center>		
+		</div>
+		<div class="bio">
+			<p class="nama">
+				Sheyla Aprilia
+			</p>
+			<p>
+				<b>About Me</b><br>
+				Saya Adalah Orang Yang Suka Berorganisasi,<br> Dan Pekerja Keras. Hidup Saya Berpegang Teguh <br> Dengan Motto Saya Yaitu <i>"Hidup, Hidup. Mati, Mati."</i>
+				
+			</p>
+			<p>
+				<b>Personal Information :</b><br>
+				<center>
+					0821-5903-9830 <br>
+					Jl. Sahabat Raya No.17 <br>
+					sheylaaprilia2@gmail.com
+				</center>
+			</p>
+		</div><br><br><br>
+	</div>
+
+	<div class="kanan">
+		<div class="time">
+			<p id="waktu"></p>
+			<script type="text/javascript">
+				var tgl = new Date();
+				var hari = ["Ahad","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+				var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+				document.getElementById("waktu").innerHTML = " "+hari[tgl.getDay()]+", "+tgl.getDate()+" "+bulan[tgl.getMonth()]+" "+tgl.getFullYear()+", Pukul "+tgl.getHours()+" : "+tgl.getMinutes()+" : "+tgl.getSeconds();
+
+			</script>
+		</div>
+		<div class="data">
+			<div class="header">
+				<h2>BIODATA</h2>
+			</div>
+			<table>
+				<tr>
+					<th>Nama Lengkap</th>
+					<td width="15px">:</td>
+					<td>Sheyla Aprilia Yusuf</td>
+				</tr>
+				<tr>
+					<th>Nama Panggilan</th>
+					<td width="15px">:</td>
+					<td>Sheyla</td>
+				</tr>
+				<tr>
+					<th>Tempat, Tanggal Lahir</th>
+					<td width="15px">:</td>
+					<td>Makassar, 6 April 2000</td>
+				</tr>
+				<tr>
+					<th>Hobi</th>
+					<td width="15px">:</td>
+					<td> Membaca</td>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<td width="15px">:</td>
+					<td>Mahasiswa</td>
+				</tr>
+			</table>
+		</div>
+		<div class="data">
+			<div class="header">
+				<h2>EDUCATION BACKGROUND</h2>
+			</div>
+			<ul class="pddk">
+				<li>SDN INPRES 2 TANAMODINDI PALU</li>
+				<li>SMPN 2 PALU</li>
+				<li>SMA AL-AZHAR MANDIRI PALU</li>
+				<li>STMIK DIPANEGARA MAKASSAR</li>
+			</ul>
+		</div>
+		<div class="data">
+			<div class="header">
+				<h2>PENGALAMAN ORGANISASI</h2>
+			</div>
+			<ul class="pddk">
+				<li>OSIS SMP 2 PALU</li>
+				<li>OSIS SMA AL-AZHAR MANDIRI PALU</li>
+				<li>PENGURUS DEC STMIK DIPANEGARA MAKASSAR</li>
+			</ul>
+		</div><br><br>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	var a = true;
+
+	if (a) {
+		
+	}
+</script>
+</html>
